@@ -39,7 +39,7 @@ void sortArr(int arr[], int SIZE)
 	for (int i = 0; i < SIZE; i++)
 	{
 
-		if (arr[i] < 1)
+		if (arr[i] < 0)
 		{
 			start = i;
 			break;
