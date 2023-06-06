@@ -35,7 +35,7 @@ void enterArr(int arr[], int SIZE)
 }
 void sortArr(int arr[], int SIZE)
 {
-	int start;
+	int start{};
 	for (int i = 0; i < SIZE; i++)
 	{
 
@@ -45,7 +45,7 @@ void sortArr(int arr[], int SIZE)
 			break;
 		}
 	}
-	int end;
+	int end{};
 	for (int i = SIZE - 1; i >= 0; i--)
 	{
 		if (arr[i] < 0)
