@@ -20,14 +20,13 @@ int main()
 
 void sortArr(int arr, int SIZE)
 {
-	for (int i = 0; i < (SIZE / 2); i++)
+	for (int i = 0; i < SIZE -1; i++)
 	{
-		for (int j = 0; j < (SIZE / 2 - i)-1; j++)
+		for (int j = 0; j < SIZE - i-1; j++)
 		{
 			if (arr[j] < arr[j + 1])
 			{
 				swap(arr[j + 1], arr[j]);
-
 			}
 		}
 	}
