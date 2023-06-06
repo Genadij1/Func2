@@ -18,7 +18,7 @@ bool isLeapYear(int year) {
 
 int getDaysDifference(int day1, int month1, int year1, int day2, int month2, int year2) {
 
-    int daysInMonth[] = { 31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31 };
+    int daysInMonth[]{ 31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31 };
 
     if (isLeapYear(year1)) {
         daysInMonth[1] = 29;
