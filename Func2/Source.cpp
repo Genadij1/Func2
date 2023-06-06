@@ -2,11 +2,17 @@
 #include <cstdlib>
 using namespace std;
 
+void sortArr(int arr, int SIZE);
+
 int main()
 {
 	const int SIZE = 10;
 	int arr[SIZE]{ 5,4,3,2,1,6,7,8,9,10 };
-
+	sortArr(arr[SIZE], SIZE);
+	for (int i = 0; i < SIZE; i++)
+	{
+		cout << arr[i] << " ";
+	}
 
 	system("pause>nul");
 	return 0;
@@ -23,7 +29,6 @@ void sortArr(int arr, int SIZE)
 				swap(arr[j + 1], arr[j]);
 
 			}
-			cout << arr[j] << " ";
 		}
 	}
 }
