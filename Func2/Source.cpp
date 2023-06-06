@@ -20,8 +20,10 @@ void sortArr(int arr, int SIZE)
 		{
 			if (arr[j] < arr[j + 1])
 			{
+				swap(arr[j + 1], arr[j]);
 
 			}
+			cout << arr[j] << " ";
 		}
 	}
 }
