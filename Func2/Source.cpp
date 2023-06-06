@@ -42,8 +42,7 @@ void firstArr(int arr[], int SIZE)
 		if (arr[i] < 1)
 		{
 			start = arr[i];
-			break;
+
 		}
-		if 
 	}
 }
